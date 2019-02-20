@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.manika.user.gfoods_manika1.Main_Menu"
+    tools:showIn="@layout/app_bar_main__menu">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycler_food"
+                android:focusable="false"/>
+
+
+
+        </RelativeLayout>
+
+
+   <!--
+
+    </ListView>
+-->
+
+    <!--   <android.support.v7.widget.Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="?attr/actionBarSize"
+           android:background="@android:color/transparent">
+
+
+       </android.support.v7.widget.Toolbar>
+   -->
+
+</android.support.constraint.ConstraintLayout>
